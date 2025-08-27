@@ -9,7 +9,7 @@ import java.util.Scanner;
  /* Desarrollar un algoritmo que permita ingresar dos numeros 
         enteros y un simbolo que indique una operacion matematica a
         realizar con ellos: */
-public class Calculadora_simple {
+public class Calculadora_simple_if {
 
     /**
      * @param args the command line arguments
