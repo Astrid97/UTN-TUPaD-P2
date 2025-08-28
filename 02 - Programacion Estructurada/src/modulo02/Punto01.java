@@ -8,6 +8,6 @@ package modulo02;
  *
  * @author Astrid
  */
-public class Punto1 {
+public class Punto01 {
     
 }
