@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package pkg03.introduccion.a.poo;
 
 /**
@@ -9,12 +5,21 @@ package pkg03.introduccion.a.poo;
  * @author Astrid
  */
 public class IntroduccionAPOO {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        Auto a = new Auto();
+        a.patente = "ABC123";
+        a.color = "Verde";
+        a.kms = 400;
+        a.conAire = true;
+        a.mostrarDatos();
+        
+        Auto a2 = new Auto();
+        a2.patente = "DEF456";
+        a2.color = "Rojo";
+        a2.kms = 600;
+        a2.conAire = false;
+        a2.mostrarDatos();
     }
     
 }
